@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ikonzum!</string>
+    <string name="app_name">Sprint blagajna</string>
+    <string name="login_get_started">Ulogirajte se za početak...</string>
+    <string name="login_get_started_more">Više informacija...</string>
+    <string name="username">Korisničko ime</string>
+    <string name="password">Šifra</string>
+    <string name="login_label">Prijava</string>
+    <string name="need_an_account">Nemate račun? Registrirajte se!</string>
+</resources>
