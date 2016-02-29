@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/scroll"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+>
+<!--<TextView-->
+<!--android:id="@+id/naslov"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="Sprint blagajna"-->
+<!--android:textSize="25dp"-->
+<!--android:textColor="#fff"-->
+<!--android:layout_gravity="center_horizontal"-->
+<!--/>-->
+<!---->
+<!--<TextView-->
+<!--android:id="@+id/beta"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="~beta"-->
+<!--android:textSize="15dp"-->
+<!--android:textStyle="italic"-->
+<!--android:textColor="#fff"-->
+<!--android:layout_gravity="center_horizontal"-->
+<!--/>-->
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myTableLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:gravity="center_vertical"
+    android:paddingTop="100dp"
+    android:clipChildren="false"
+    >
+     <TableRow
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          
+          
+<Button
+android:id="@+id/novikod"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:padding="5px"
+android:text="Skener"
+android:drawableRight="@drawable/ic_menu_barcode"
+/>
+
+          <Button
+android:id="@+id/info"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:padding="5px"
+android:text="Lista"
+android:drawableRight="@drawable/ic_menu_agenda"
+/>
+
+
+</TableRow>
+
+<TableRow
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          
+   <Button
+android:id="@+id/postavke"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:padding="5px"
+android:text="Postavke"
+android:drawableRight="@drawable/ic_menu_edit"
+/>        
+
+          <Button
+android:id="@+id/izlaz"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:padding="5px"
+android:text="Odjava"
+android:drawableRight="@drawable/ic_menu_exit"
+/>
+
+</TableRow>
+
+</TableLayout>
+
+<TextView
+android:id="@+id/beta"
+android:paddingTop="10dp"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Dobrodošao natrag, Josipe"
+android:textSize="15dp"
+android:textStyle="italic"
+android:textColor="#000"
+android:layout_gravity="center_horizontal"
+/>
+
+</LinearLayout>
+
+
+
+</ScrollView>
